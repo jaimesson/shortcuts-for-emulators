@@ -1,0 +1,1 @@
+rm $HOME/.local/share/applications/launch_emulator_*.desktop && sudo rm /usr/local/bin/launch_emulator_*

@@ -1,0 +1,1 @@
+The `script add-shortcuts.sh` reads all devices available in the emulator -list-avds and creates shortcuts for each of them
