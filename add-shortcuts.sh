@@ -42,7 +42,7 @@ if [ -n "$avd_list" ]; then
             echo 'export ANDROID_HOME=${HOME}/Android/Sdk' >>$script_file
             echo 'export PATH=${PATH}:${ANDROID_HOME}/emulator' >>$script_file
             echo 'export PATH=${PATH}:${ANDROID_HOME}/platform-tools' >>$script_file
-            echo "nohup emulator -avd pixel-3a-avd &" >>$script_file
+            echo "nohup emulator -avd ${avd} &" >>$script_file
             echo "sleep 5" >>$script_file
             echo "wmctrl -r ${avd} -b toggle,above" >>$script_file
             echo "Script $script_file criado e tornados executáveis com sucesso!"
